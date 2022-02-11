@@ -1,0 +1,30 @@
+/* importe section */
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins&display=swap');
+/* this style is for alert  */
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-costom-color{
+    background-color: #F1D00A;
+}
+.height{
+    height: 5px !important;
+}
+/* section of navbar */
+.ul-section{
+    display: flex;
+    justify-content: space-around;
+}
+.list-item{
+    list-style: none;
+    margin: 5px;
+   
+}
+.navbar-section{
+    display: flex;
+    justify-content:space-between;
+}
+@media screen {
+    
+}

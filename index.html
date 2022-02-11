@@ -4,10 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Doposit</title>
 </head>
 <body>
-  <h1>HEllo Bangladesh</h1>
-  <script src="make.js"></script>
+  
+  <h1 class="text-center text-2xl font-medium bg-rose-400 rounded text-white" >Bank Mony Calculation <span class="text-blue-700">!!</span></h1>
+  <section class="grid grid-colums-4 grid-flow-col gap-14 mt-8 margin-auto place-content-center">
+    <div class="doposite-section bg-red-300 text-white  rounded-xl p-8 ps-14 pr-14"> 
+      <h3 class="text-xl text-center">Doposite</h3>
+      <h3 class="text-2xl text-center">$<span id="deposit-money">00</span></h3>
+    </div>
+    <div class="withdrow-section bg-green-200 text-white  rounded-xl p-8 ps-14 pr-14">
+      <h3 class="text-xl text-center">Withdrow</h3>
+      <h3  class="text-2xl text-center">$<span id="withdrow-money">00</span></h3>
+    </div>
+    <div class="balance-section bg-amber-200 text-white rounded-xl p-8 ps-14 pr-14">
+      <h3 class="text-xl text-center">Balance</h3>
+      <h3  class="text-2xl text-center">$<span id="balance-money">00</span></h3>
+    </div>
+  </section>
+  <section class="grid grid-colums-6 grid-flow-col gap-4 mt-8 margin-auto place-content-center mt-8">
+    <div class="doposite p-4 ps-14 pr-14 rounded-xl bg-indigo-400">
+      <label for="" class="text-white">Amount :</label><br>
+   <input type="text" id="deopsitAmount-fild" width="100" class="rounded" size="26" required placeholder="$ amount you want to doposite"> <br>
+   <button  type="button" id="deposite-button" class="bg-fuchsia-500 text-white rounded-md p-2 mt-5">Doposite</button>
+    </div>
+    <div class="widthdrow p-4 ps-14 pr-14 rounded-xl bg-pink-300">
+      <label for="" class="text-white">Amount :</label><br>
+      <input type="text" class="rounded " size="27" id="withdrowAmount-fild"  required placeholder="$ amount you want to withdrow"> <br>
+      <button type="button" id="withdrow-button" class="bg-purple-400 text-white rounded-md p-2 mt-5">Withdrow</button>
+    </div>
+  </section>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="constaction.js"></script>
 </body>
 </html>
