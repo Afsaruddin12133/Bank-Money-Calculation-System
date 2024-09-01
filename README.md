@@ -4,7 +4,7 @@
 Repository: [GitHub Repository](https://github.com/Afsaruddin12133/Bank-Money-Calculation-System)
 
 ## Live Demo
-Live Demo: [Project Live Link](https://afsaruddin12133.github.io/Grade/)
+Live Demo: [Project Live Link](https://afsaruddin12133.github.io/Bank-Money-Calculation-System/)
 
 ## Features
 - **Money Calculation:** Quickly calculate various banking transactions.
